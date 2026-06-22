@@ -1,0 +1,30 @@
+node_modules
+dist
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+*.secret
+
+# Logs and local runtime files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vercel
+.netlify
+.render
+
+# Temporary upload output
+server/uploads/*
+server/zips/*
+!server/uploads/.gitkeep
+!server/zips/.gitkeep
