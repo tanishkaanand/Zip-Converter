@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState } from 'react';
 import { Archive, CheckCircle2, Download, FileUp, Loader2, Trash2, XCircle } from 'lucide-react';
 
-const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:5001';
+const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || '';
 const acceptedExtensions = ['jpg', 'jpeg', 'png', 'pdf', 'docx', 'xlsx', 'pptx'];
 const acceptValue = acceptedExtensions.map((extension) => `.${extension}`).join(',');
 
