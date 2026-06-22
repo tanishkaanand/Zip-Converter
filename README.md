@@ -2,6 +2,8 @@
 
 A full-stack ZIP converter MVP built with React, Tailwind CSS, Node.js, and Express. Users can upload multiple supported files and download them as a single ZIP archive.
 
+Visit here : https://zip-converter.onrender.com/
+
 ## Features
 
 - Upload multiple `jpg`, `png`, `pdf`, `docx`, `xlsx`, and `pptx` files
@@ -69,30 +71,6 @@ The backend currently allows:
 - Up to 25 MB per file
 
 These values can be changed in `server/src/server.js`.
-
-## Deployment
-
-This project can be deployed as a single free Render Web Service.
-
-Recommended Render settings:
-
-```text
-Build Command: npm install && npm run build --workspace client
-Start Command: npm start
-```
-
-No custom domain is required. Render provides a free `.onrender.com` URL.
-
-## Environment Variables
-
-Optional:
-
-```text
-PORT=5001
-CLIENT_ORIGIN=http://127.0.0.1:5173
-```
-
-Do not commit `.env` files or secrets to GitHub. They are ignored by `.gitignore`.
 
 ## Copyright
 
